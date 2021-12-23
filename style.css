@@ -56,14 +56,14 @@
 .link1:hover::after{
     width: 0;
 }
-.section1 .btn{
+.section1 .btn, .section5 .btn{
     border-radius: 0px;
     padding: 15px 50px;
     font-size: 1em;
     font-weight: 500;
     background: rgb(255, 255, 53);
 }
-.section1 .btn:hover{
+.section1 .btn:hover,.section5 .btn:hover {
     background: lightcyan;
 }
 
@@ -168,3 +168,6 @@ p .link2{
 
 /* ---------section5----------- */
  
+.section5{
+    background: url(ODAMLAR.jpg);
+}
