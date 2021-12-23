@@ -170,4 +170,77 @@ p .link2{
  
 .section5{
     background: url(ODAMLAR.jpg);
+    height: 700px;
+    
+}
+.mmm{
+    background-color: rgba(7, 7, 7, 0.7);
+    height: 100%;
+}
+.box001{
+    margin-right: 20px;
+    margin-bottom: 50px;
+}
+.box002{
+    margin-left: 20px;
+    margin-bottom: 50px;
+}
+.box001 h1::before{
+    content: "";
+    background: yellow;
+    width: 300px;
+    position:absolute;
+    height:14px;
+    bottom: -50px;
+}
+.box001 h1{
+    width: 500px;
+    font-size: 3em;
+    font-weight: 400;
+    position: relative;
+}
+.box001 p, .box002 p{
+    width: 550px;
+    font-size: 1.3em;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: 1.5px;
+}
+.box001 p{
+    margin-top: 100px;
+}
+
+/* -----------section6------------- */
+
+.section6{
+    height: 400px;
+    position: relative;
+}
+.box003 h1{
+    color: black;
+    font-size: 2.8em;
+}
+.box003 p{
+    font-size: 1.3em;
+    width: 1110px;
+}
+.box003 .btn{
+        border-radius: 0px;
+        padding: 15px 50px;
+        font-size: 1em;
+        font-weight: 500;
+        background: rgb(255, 255, 53);
+}
+.box003 .btn:hover{
+    background: black;
+    color: white;
+}
+.aylana{
+    background:rgb(255, 255, 53);
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    z-index: -1;
+    border-radius: 50%;
+    right: 300px;
 }
