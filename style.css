@@ -224,14 +224,14 @@ p .link2{
     font-size: 1.3em;
     width: 1110px;
 }
-.box003 .btn{
+.box003 .btn, .section8-text .btn{
         border-radius: 0px;
         padding: 15px 50px;
         font-size: 1em;
         font-weight: 500;
         background: rgb(255, 255, 53);
 }
-.box003 .btn:hover{
+.box003 .btn:hover, .section8-text .btn:hover{
     background: black;
     color: white;
 }
@@ -243,4 +243,127 @@ p .link2{
     z-index: -1;
     border-radius: 50%;
     right: 300px;
+}
+
+/* -----------section7-------- */
+.section7 .carousel-item div{
+    height: 550px;
+}
+.section7 .carousel-item h4{
+    width: 700px;
+}
+.section7 .carousel-item img{
+    width: 150px;
+    height: 150px;
+    border: 7px solid yellow;
+    border-radius: 50%;
+}
+.bg-qora{
+    background: #222;
+}
+
+.bg-black{
+    background: rgba(0, 0, 0,0.8);
+    color: white;
+}
+.offcanvas-header *{
+    color: white;
+}
+.offcanvas{
+    width: 250px;
+}
+
+/* -------------section8------------ */
+
+.sectio8{
+    height: 600px;
+    width: 100%;
+}
+.section8-text h1{
+    font-size: 4em;
+}
+.section8-text p{
+    width: 430px;
+    font-size: 1.3em;
+    line-height: 40px;
+}
+.section8-image img{
+    height: 500px;
+}
+.section8-image {
+    height: 500px;
+    width: 500px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.yellow{
+    background-color: yellow;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    right: 100px;
+    bottom: -20px;
+}
+/* -------------Contact---------------- */
+
+.contact{
+    height: 750px;
+    width: 100%;
+    background: #292d33;
+}
+.contact-image{
+    height: 800px;
+    width: 1200px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+.contact-image img{
+    height: 750px;
+}
+.contact-us {
+    align-items: center;
+    width: 100%;
+    height: 750px;
+}
+.contact-us form{
+    width: 650px;
+}
+.contact-us form input, .contact-us form #textarea {
+    width: 600px;
+    height: 40px;
+    background: #292d33;
+    border: none;
+    border-bottom: 2px solid white;
+    
+}
+.contact-us form #textarea{
+    height: 120px;
+}
+.contact-us form #checkbox input{
+    width: 15px;
+    height: 13px;
+}
+.contact-us form #submit{
+    width: 100px;
+    background: rgb(255, 255, 75);
+    border-bottom: none;
+    height: 50px;
+    font-weight: 600;
+}
+/* ------footer------ */
+footer{
+    height: 200px;
+}
+footer p:first-child{
+    font-size: 1.3em;
+}
+footer a{
+    color: yellow;
+}
+footer a:hover{
+    color: yellow;
 }
